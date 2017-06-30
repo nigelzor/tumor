@@ -17,7 +17,7 @@ describe('tumor', function () {
 			'https://ryanmcgrath@github.com/ryanmcgrath/wrench-js.git': 'github.com/ryanmcgrath',
 
 			// non-github, or otherwise suspect
-			'git://github.com:mafintosh/tar-stream.git': 'github.com/:mafintosh',
+			'git://github.com:mafintosh/tar-stream.git': 'github.com/mafintosh',
 			'git://gitorious.org/buster/buster-core.git': 'gitorious.org/buster',
 			'http://www.github.com/wdavidw/node-stream-transform': 'www.github.com/wdavidw',
 			'https://code.google.com/p/selenium/': 'code.google.com/p/selenium'
