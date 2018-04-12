@@ -2,9 +2,17 @@
   "name": "tumor",
   "version": "0.5.0",
   "description": "it grows",
+  "homepage": "https://github.com/nigelzor/tumor",
+  "license": "ISC",
+  "author": "Neil Gentleman <ngentleman@gmail.com>",
+  "main": "index.js",
   "bin": {
-    "tumor": "./bin/tumor",
-    "te": "./bin/te"
+    "te": "./bin/te",
+    "tumor": "./bin/tumor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nigelzor/tumor.git"
   },
   "scripts": {
     "test": "mocha test && eslint ."
@@ -30,13 +38,5 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "mocha": "^2.4.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/pulseenergy/tumor.git"
-  },
-  "bugs": {
-    "url": "https://github.com/pulseenergy/tumor/issues"
-  },
-  "homepage": "https://github.com/pulseenergy/tumor"
+  }
 }
